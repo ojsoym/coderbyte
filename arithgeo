@@ -1,0 +1,21 @@
+def ArithGeo(arr)
+  
+  first_num = arr[0]
+  gap = arr[1] - arr[0]
+  
+  # code goes here
+  arr.map! { |a| a -= first_num}
+  for i in 1..arr.length
+  	arr[i-1] -= gap * i-1
+  end
+  final_set = arr.select {|a| a.abs > 0 }
+  
+  if final_set.empty?
+    return "Arithmetic"
+  else
+    return -1
+  end
+  
+  return final_set
+         
+end
