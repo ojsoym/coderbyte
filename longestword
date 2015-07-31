@@ -6,3 +6,6 @@ def LongestWord(sen)
   return sen 
          
 end
+
+
+http://stackoverflow.com/questions/21977381/ruby-getting-the-longest-word-of-a-sentence
