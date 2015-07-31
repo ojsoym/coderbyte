@@ -1,0 +1,8 @@
+def LongestWord(sen)
+
+  # code goes here
+  sen = sen.split(/[^\w]+/).max_by(&:length)
+  
+  return sen 
+         
+end
