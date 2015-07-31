@@ -1,0 +1,22 @@
+def AdditivePersistence(num)
+	
+  # code goes here
+  index = 0
+  while num > 10
+  
+  	if num < 10
+    
+  	else
+    
+  		a = num.to_s.split(//)
+ 		c = 0
+  		a.each {|p| c  += p.to_i }
+  		index += 1
+    	num = c
+  	end
+  end
+  
+  return index
+         
+end
+   
