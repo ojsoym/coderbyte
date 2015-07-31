@@ -1,0 +1,18 @@
+def Palindrome(str)
+
+  # code goes here
+  
+  list = str.split
+  test = ""
+  list.each do |p|
+    test += p
+  end
+    
+  
+  if test == test.reverse
+    return true
+  else
+    return false
+  end
+         
+end
