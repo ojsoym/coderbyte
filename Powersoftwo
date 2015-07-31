@@ -1,0 +1,11 @@
+def PowersofTwo(num)
+
+  # code goes here
+  if num % 2 == 0
+    return true
+  else
+    return false
+  
+  end
+         
+end
